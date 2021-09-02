@@ -93,7 +93,7 @@ Input Number: 10
 Expected Output:
 
 ```bash
-Sum of numbers 1 to 10 = 45
+Sum of numbers 1 to 10 = 55
 ```
 
 _Themes: loop_
