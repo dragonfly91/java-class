@@ -116,7 +116,7 @@ Sum of odd numbers from 1 to 11 is 36
 
 # Sum Even
 
-Given an input n, where n is an even number, write a program to calculate the sum of odd integers up to n: 2, 4, 5, ... n.
+Given an input n, where n is an even number, write a program to calculate the sum of odd integers up to n: 2, 4, 6, ... n.
 
 Expected Input:
 
@@ -128,6 +128,22 @@ Expected Output:
 
 ```bash
 Sum of odd numbers from 2 to 10 is 30
+```
+
+# Sum Squares
+
+Given an input n, write a program to calculate the sum of squares of integers up to n: 1^2 + 2^2 + 3^2 + ... + n^2.
+
+Expected Input:
+
+```bash
+Input Number: 10
+```
+
+Expected Output:
+
+```bash
+Sum of squares of numbers from 1 to 10 is 385
 ```
 
 # Product 1 to N
