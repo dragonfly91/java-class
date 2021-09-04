@@ -98,6 +98,38 @@ Sum of numbers 1 to 10 = 55
 
 _Themes: loop_
 
+# Sum Odd
+
+Given an input n, where n is an odd number, write a program to calculate the sum of odd integers up to n: 1, 3, 5, ... n.
+
+Expected Input:
+
+```bash
+Input Number: 11
+```
+
+Expected Output:
+
+```bash
+Sum of odd numbers from 1 to 11 is 36
+```
+
+# Sum Even
+
+Given an input n, where n is an even number, write a program to calculate the sum of odd integers up to n: 2, 4, 5, ... n.
+
+Expected Input:
+
+```bash
+Input Number: 10
+```
+
+Expected Output:
+
+```bash
+Sum of odd numbers from 2 to 10 is 30
+```
+
 # Product 1 to N
 
 Write a program called Product1ToN to compute the product of integers from 1 to 10 (i.e., 1x2x3x...x10), as an integer. Take note that it is the same as factorial of N.
