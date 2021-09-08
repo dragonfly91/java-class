@@ -276,7 +276,7 @@ Minimum: 2
 
 # Even or Odd
 
-Write a Java program to accept a number and check if it is even or odd. The program should print 1 if the number is even and 0 if the number is odd.
+Write a Java program to accept a number and check if it is even or odd. The program should print EVEN if the number is even and ODD if the number is odd.
 
 Expected Input (even):
 
@@ -287,7 +287,7 @@ Input a number: 20
 Expected Output:
 
 ```bash
-1
+EVEN
 ```
 
 Expected Input (odd):
@@ -299,7 +299,7 @@ Input a number: 21
 Expected Output:
 
 ```bash
-0
+ODD
 ```
 
 _Themes: modulo_
