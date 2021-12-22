@@ -15,7 +15,7 @@ _Themes: main method, compiling code, print statement_
 
 Write a Java program to print out about yourself. Please include your name, where you are from, what you do and an interesting thing about you. Feel free to get as creative as you like!
 
-```bash
+```
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Hi, nice to meet you!
 I'm Samuel from India. I moved to Japan 3 years ago.
