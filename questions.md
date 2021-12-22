@@ -114,6 +114,13 @@ for (int i = 0; i < 10; i++) {
 ```
 
 ```Java
+int j;
+for (j = 0; j < 7; j++) {
+  foo();
+}
+```
+
+```Java
 for (int i = 0; i < 10; i = i + 2) {
   foo();
 }
