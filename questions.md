@@ -15,6 +15,8 @@ _Themes: main method, compiling code, print statement_
 
 Write a Java program to print out about yourself. Please include your name, where you are from, what you do and an interesting thing about you. Feel free to get as creative as you like!
 
+Expected Output:
+
 ```
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Hi, nice to meet you!
@@ -35,7 +37,7 @@ Expected Output:
 Sum of 1 and 2 is 3
 ```
 
-_Themes: string formatting_
+_Themes: variables, string formatting_
 
 # Multiply Two
 
@@ -54,7 +56,7 @@ Expected Output:
 25 x 5 = 125
 ```
 
-_Themes: read input_
+_Themes: reading input_
 
 # Circle
 
