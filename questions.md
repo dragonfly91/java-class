@@ -62,8 +62,10 @@ _Themes: reading input_
 
 Given the radius of a circle (r), write a Java program to print the area and perimeter of the circle. You can use the following formulae:
 
-Area = PI x r x r
-Perimeter = 2 x PI x r
+```
+Area = PI * r * r
+Perimeter = 2 * PI * r
+```
 
 You can assume that the value of PI is 3.14
 
@@ -100,6 +102,54 @@ Expected Output:
 ```
 
 _Themes: floating point formatting_
+
+# Iterations
+
+Calculate how many times will `foo()` be executed:
+
+```Java
+for (int i = 0; i < 10; i++) {
+  foo();
+}
+```
+
+```Java
+for (int i = 0; i < 10; i = i + 2) {
+  foo();
+}
+```
+
+```Java
+for (int i = 10; i > 1; i = i - 2) {
+  foo();
+}
+```
+
+```Java
+for (int i = 0, j = 10; i < 10 && j > 5; i++, j--) {
+  foo();
+}
+```
+
+```Java
+for (int i = 0; i < 10;) {
+  foo();
+}
+```
+
+```Java
+for (int i = 4; i < 20; i = 2 * i + 3) {
+  foo();
+}
+```
+
+```Java
+for (int i = 0; i < 10; i++) {
+  for (int j = 0; j < 10; j++) {
+    foo();
+  }
+}
+```
 
 # Sum 1 to N
 
