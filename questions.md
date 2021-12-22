@@ -11,6 +11,20 @@ Samuel Bangari
 
 _Themes: main method, compiling code, print statement_
 
+# Intro
+
+Write a Java program to print out about yourself. Please include your name, where you are from, what you do and an interesting thing about you. Feel free to get as creative as you like!
+
+```bash
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Hi, nice to meet you!
+I'm Samuel from India. I moved to Japan 3 years ago.
+I'm currently planting a church in Shibuya and 
+also work in the Financial services industry in Tokyo.
+I love cycling, coffee and Christ (but not in that order!)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
+
 # Add Two
 
 Write a method that sums two numbers. The program should define two variables to store the two numbers and a third variable to store the result of the summation. These three variables should be used while printing the output.
