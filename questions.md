@@ -60,7 +60,12 @@ _Themes: reading input_
 
 # Circle
 
-Write a Java program to print the area and perimeter of a circle.
+Given the radius of a circle (r), write a Java program to print the area and perimeter of the circle. You can use the following formulae:
+
+Area = PI x r x r
+Perimeter = 2 x PI x r
+
+You can assume that the value of PI is 3.14
 
 Expected Input:
 
@@ -71,8 +76,8 @@ Radius: 7.5
 Expected Output:
 
 ```bash
-Perimeter is = 47.12388980384689
-Area is = 176.71458676442586
+Perimeter is = 47.1
+Area is = 176.625
 ```
 
 _Themes: floating point arithmetic_
@@ -84,7 +89,7 @@ Note: One inch is 0.0254 meters.
 
 Expected Input:
 
-```bash
+```
 Enter the value in inches: 15
 ```
 
