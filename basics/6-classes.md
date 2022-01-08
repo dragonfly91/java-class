@@ -1,3 +1,56 @@
+# Inventory
+
+Model an inventory system where customers, products and orders have to be managed. Design classes for Customer, Product and Order.
+
+# Cartesian Coordinate System
+
+Model a Cartesian coordinate system.
+
+## Point-to-Point Distance
+
+Design the Point class. Implement a method to calculate distance from another point.
+
+```Java
+class Point {
+    double getDistance(Point p) {
+        // TODO
+    }
+}
+```
+
+## Intersection State
+
+Design the Circle class. Implement a method to check if two circles c1 and c2 intersect or not. The method should return the state of intersection of the two circles.
+
+```Java
+IntersectionState getIntersectionState(Circle c1, Circle c2) {
+    // TODO
+}
+
+enum IntersectionState {
+    Disjoint,
+    Touching,
+    Intersecting,
+    Inside
+}
+```
+
+## Distance from Line
+
+Extend the Line class to implement a function to get the distance of a point from the line. 
+
+Note: if the line passes through two points P<sub>1</sub> = (x<sub>1</sub>, y<sub>1</sub>) and P<sub>2</sub> = (x<sub>2</sub>, y<sub>2</sub>) then the distance of (x<sub>0</sub>, y<sub>0</sub>) from the line is:
+
+![image](../.media/point-distance-from-line.svg)
+
+```Java
+class Line {
+  double getDistance(Point p) {
+      // TODO
+  }
+}
+```
+
 # Array Class
 
 Create a class Array which:
