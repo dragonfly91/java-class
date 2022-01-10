@@ -6,7 +6,7 @@ Model an inventory system where customers, products and orders have to be manage
 
 Model a Cartesian coordinate system.
 
-## Point-to-Point Distance
+## Point
 
 Design the Point class. Calculate and print the distance between two points (x<sub>1</sub>, y<sub>1</sub>) and (x<sub>2</sub>, y<sub>2</sub>) using the following formula:
 
@@ -22,9 +22,49 @@ class Point {
 }
 ```
 
-## Intersection State
+## Triangle
 
-Design the Circle class. Implement a method to check if two circles c1 and c2 intersect or not. The method should return the state of intersection of the two circles.
+Design the Triangle class. Implement a method in the Triangle class to calculate the perimeter of the triangle.
+
+```Java
+class Triangle {
+    double getPerimeter() {
+        // TODO
+    }
+}
+```
+
+## Square
+
+Design the Square class. Implement methods in the Square class to calculate the perimeter and area of the square.
+
+```Java
+class Square {
+    double getPerimeter() {
+        // TODO
+    }
+    
+    double getArea() {
+        // TODO
+    }
+}
+```
+
+## Circle
+
+Design the Circle class. Implement a method in the Circle class to check if a point is inside the circle or not. The method should return true if the point is inside the circle and false otherwise.
+
+```Java
+class Circle {
+    double isInside(Point p) {
+        // TODO
+    }
+}
+```
+
+### Intersection
+
+Implement a method in the Circle class to check if two circles c1 and c2 intersect or not. The method should return the state of intersection of the two circles.
 
 ```Java
 IntersectionState getIntersectionState(Circle c1, Circle c2) {
