@@ -8,7 +8,11 @@ Model a Cartesian coordinate system.
 
 ## Point-to-Point Distance
 
-Design the Point class. Implement a method to calculate distance from another point.
+Design the Point class. Calculate and print the distance between two points (x<sub>1</sub>, y<sub>1</sub>) and (x<sub>2</sub>, y<sub>2</sub>) using the following formula:
+
+sqrt((x<sub>1</sub> - x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub> - y<sub>2</sub>)<sup>2</sup>)
+
+Add a new method to the Point class to calculate distance from another point.
 
 ```Java
 class Point {
