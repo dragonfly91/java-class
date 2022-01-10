@@ -50,6 +50,22 @@ class Square {
 }
 ```
 
+## Rectangle
+
+Design the Rectangle class. Implement methods in the class to calculate the perimeter and the area of the rectangle.
+
+```Java
+class Rectangle {
+    double getPerimeter() {
+        // TODO
+    }
+    
+    double getArea() {
+        // TODO
+    }
+}
+```
+
 ## Circle
 
 Design the Circle class. Implement a method in the Circle class to check if a point is inside the circle or not. The method should return true if the point is inside the circle and false otherwise.
