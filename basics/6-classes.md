@@ -1,6 +1,6 @@
-# Inventory
+# Shopping App
 
-Model an inventory system where customers, products and orders have to be managed. Design classes for Customer, Product and Order.
+Model objects in a shopping app where customers, products and orders have to be managed. Design classes for Customer, Product and Order.
 
 # Cartesian Coordinate System
 
@@ -144,3 +144,15 @@ class DigitalClock {
     display() { ... }
 }
 ```
+
+# Reservation System
+
+Design a system (ReservationSystem) to reserve slots in a flexible teaching class. The system should model a list of teachers (Teacher) and a list of students (Student). Each teacher can teach their class within a set of fixed time ranges (AvailableSpan) on any given day (Date). Implement the following methods:
+
+```Java
+class ReservationSystem {
+    List<AvailableSlot> getAvailableSlots(Date date) { ... }
+}
+```
+
+Please feel free to create as many other classes and / or methods as you need.
