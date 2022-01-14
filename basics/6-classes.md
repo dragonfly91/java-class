@@ -116,6 +116,22 @@ class Line {
 Model a digital clock by designing the DigitalClock class. The class should support hours, minutes and seconds as properties. Implement the following methods. With every operation, when the total time exceeds the max time possible, the time should be rolled over. For example 23:59:59 + 00:00:01 would be 00:00:00.
 
 ```Java
+// JAVA
+class DigitalClock {
+    DigitalClock(int hours, int minutes, int seconds);
+    
+    public void addHours(int hours) { ... }
+    public void addMinutes(int minutes) { ... }
+    public void addSeconds(int seconds) { ... }
+    public void add(DigitalClock digitalClock) { ... }
+    
+    // This should display the current time in hh:mm:ss format. For example: 19:30:00 would be 7:30 PM
+    public void display() { ... }
+}
+```
+
+```Dart
+// DART
 class DigitalClock {
     DigitalClock(this.hours, this.minutes, this.seconds);
     
