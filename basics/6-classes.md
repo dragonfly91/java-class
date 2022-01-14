@@ -113,7 +113,7 @@ class Line {
 
 # DigitalClock
 
-Model a digital clock by designing the DigitalClock class. The class should support hours, minutes and seconds as properties. Implement the following methods. With every add or subtract operation, the time should be rolled over. For example 23:59:59 + 00:00:01 would be 00:00:00.
+Model a digital clock by designing the DigitalClock class. The class should support hours, minutes and seconds as properties. Implement the following methods. With every operation, when the total time exceeds the max time possible, the time should be rolled over. For example 23:59:59 + 00:00:01 would be 00:00:00.
 
 ```Java
 class DigitalClock {
@@ -123,11 +123,6 @@ class DigitalClock {
     addMinutes(int m) { ... }
     addSeconds(int s) { ... }
     add(DigitalClock d) { ... }
-    
-    subtractHours(int h) { ... }
-    subtractMinutes(int m) { ... }
-    subtractSeconds(int s) { ... }
-    subtract(Digital Clock d) { ... }
     
     // This should display the current time in hh:mm:ss format. For example: 19:30:00 would be 7:30 PM
     display() { ... }
