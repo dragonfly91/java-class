@@ -1,18 +1,23 @@
 # Terminal
 
-Display the current working directory
+Commands to use:
+
 $ pwd
 
-List all the children in the current working directory
 $ ls
 
 $ cd myfolder
 
 $ cd ..
 
+$ cd ~
+
 $ mkdir myfolder
+
+$ rm -rf myfolder
 
 # Create
 
 Create the following folder structure
 
+![folder structure](../.media/folder-structure.svg)
