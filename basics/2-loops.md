@@ -53,6 +53,19 @@ for (int i = 0; i < 10; i++) {
 }
 ```
 
+# Count
+
+For each of the loops in the [Iterations](#iterations) question, print the number of iterations via code.
+
+Expected Output:
+
+```bash
+Count: 10
+Count: 7
+...
+etc.
+```
+
 # Sum 1 to N
 
 Given an input n, write a Java program to calculate the sum of integers 1, 2, 3, ... n.
