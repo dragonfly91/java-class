@@ -16,7 +16,7 @@ Add a new method to the Point class to calculate distance from another point.
 
 ```Java
 class Point {
-    double getDistance(Point p) {
+    double getDistance(Point point) {
         // TODO
     }
 }
@@ -72,7 +72,7 @@ Design the Circle class. Implement a method in the Circle class to check if a po
 
 ```Java
 class Circle {
-    boolean isInside(Point p) {
+    boolean isInside(Point point) {
         // TODO
     }
 }
@@ -83,7 +83,7 @@ class Circle {
 Implement a method in the Circle class to check if two circles c1 and c2 intersect or not. The method should return the state of intersection of the two circles.
 
 ```Java
-IntersectionState getIntersectionState(Circle c) {
+IntersectionState getIntersectionState(Circle circle) {
     // TODO
 }
 
@@ -105,7 +105,7 @@ Note: if the line passes through two points P<sub>1</sub> = (x<sub>1</sub>, y<su
 
 ```Java
 class Line {
-  double getDistance(Point p) {
+  double getDistance(Point point) {
       // TODO
   }
 }
