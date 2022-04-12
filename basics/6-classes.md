@@ -83,7 +83,7 @@ class Circle {
 Implement a method in the Circle class to check if two circles c1 and c2 intersect or not. The method should return the state of intersection of the two circles.
 
 ```Java
-IntersectionState getIntersectionState(Circle c1, Circle c2) {
+IntersectionState getIntersectionState(Circle c) {
     // TODO
 }
 
