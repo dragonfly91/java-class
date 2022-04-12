@@ -72,7 +72,7 @@ Design the Circle class. Implement a method in the Circle class to check if a po
 
 ```Java
 class Circle {
-    bool isInside(Point p) {
+    boolean isInside(Point p) {
         // TODO
     }
 }
