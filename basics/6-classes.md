@@ -167,6 +167,27 @@ class DigitalClock {
 }
 ```
 
+# Matrices
+
+Design a class to model matrices and support arithmetic operations on two matrices of different dimensions. 
+
+- Given the number of rows and columns, the constructor should fill the matrix with random test data. 
+- Addition and subtraction of two matrices are supported only if the two matrices have the same dimensions. 
+- Multiplication is supported between matrices A and B if and only if the dimensions of A = [mxn] and the dimensions of B = [nxl] and the dimensions of output matrix would be [mxl].
+
+```Java
+class Matrix {
+    Matrix(int rowCount, int columnCount) { ... }
+    
+    public Matrix transpose() { ... }
+    public bool isEqualTo(Matrix other) { ... }
+    public Matrix add(Matrix other) { ... }
+    public Matrix subtract(Matrix other) { ... }
+    public Matrix multiply(double constant) { ... }
+    public Matrix multiply(Matrix other) { ... }
+}
+```
+
 # Reservation System
 
 Design a system (`ReservationSystem`) to reserve slots in a flexible teaching class. The system should model a list of teachers (`Teacher`) and a list of students (`Student`). Each teacher can teach their class within a set of fixed time ranges (`AvailableSpan`) on any given day (`Date`). Implement the following methods:
