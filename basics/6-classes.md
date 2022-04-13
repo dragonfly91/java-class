@@ -111,6 +111,28 @@ class Line {
 }
 ```
 
+# Complex Numbers
+
+Create a class to model complex numbers. The class should support basic arithmetic: addition, subtraction, multiplication and division. Use the following formulae to perform the arithmetic:
+
+```
+(a + ib) + (c + id) = (a + c) + i(b + d)
+(a + ib) - (c + id) = (a - c) + i(b - d)
+(a + ib) * (c + id) = (a * c - b * d) + i(a * d + b * c)
+(a + ib) / (c + id) = ((a * c + b * d) / (c * c + d * d)) + i((b * c - a * d) / (c * c + d * d))
+```
+
+```Java
+class ComplexNumber {
+    ComplexNumber(double real, double imaginary) { ... }
+    
+    public ComplexNumber add(ComplexNumber other) { ... }
+    public ComplexNumber subtract(ComplexNumber other) { ... }
+    public ComplexNumber multiply(ComplexNumber other) { ... }
+    public ComplexNumber divide(ComplexNumber other) { ... }
+}
+```
+
 # DigitalClock
 
 Model a digital clock by designing the DigitalClock class. The class should support hours, minutes and seconds as properties. Implement the following methods. With every operation, when the total time exceeds the max time possible, the time should be rolled over. For example 23:59:59 + 00:00:01 would be 00:00:00.
