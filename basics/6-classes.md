@@ -181,6 +181,7 @@ class Matrix {
     
     public Matrix transpose() { ... }
     public bool isEqualTo(Matrix other) { ... }
+    public static Matrix generateIdentity(int rowSize, int columnSize) { ... }
     public Matrix add(Matrix other) { ... }
     public Matrix subtract(Matrix other) { ... }
     public Matrix multiply(double constant) { ... }
