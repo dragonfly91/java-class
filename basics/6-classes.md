@@ -188,15 +188,3 @@ class Matrix {
     public Matrix multiply(Matrix other) { ... }
 }
 ```
-
-# Reservation System
-
-Design a system (`ReservationSystem`) to reserve slots in a flexible teaching class. The system should model a list of teachers (`Teacher`) and a list of students (`Student`). Each teacher can teach their class within a set of fixed time ranges (`AvailableSpan`) on any given day (`Date`). Implement the following methods:
-
-```Java
-class ReservationSystem {
-    List<AvailableSlot> getAvailableSlots(Teacher teacher, Date date) { ... }
-}
-```
-
-Please feel free to create as many other classes and / or methods as you need.
