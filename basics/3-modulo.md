@@ -44,8 +44,6 @@ Write a Java program and compute the sum of the digits of an integer.
 
 Expected Input:
 
-
-
 ```bash
 Input an integer: 25
 ```
@@ -65,7 +63,7 @@ Write a Java program to calculate optimal change for a given amount of currency 
 与えられた日本円の通貨に対して、最適なおつりを計算するJavaプログラムを作成してください。
 
 Expected Input:
-得られるもの:
+:
 
 ```bash
 Input value (Japanese Yen): 2356
