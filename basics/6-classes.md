@@ -197,6 +197,10 @@ Design a class to model matrices and support arithmetic operations on two matric
 - Addition and subtraction of two matrices are supported only if the two matrices have the same dimensions. 
 - Multiplication is supported between matrices A and B if and only if the dimensions of A = [mxn] and the dimensions of B = [nxl] and the dimensions of output matrix would be [mxl].
 
+-行と列の数が与えられると，コンストラクタはランダムなテストデータで行列を埋める必要があります．
+- 2 つの行列の加算と減算は，2 つの行列が同じ次元である場合にのみサポートされます．
+- 行列 A と B の掛け算は， A の次元 = [mxn] かつ B の次元 = [nxl] かつ 出力行列の次元が [mxl] である場合に限り，サポートされます．
+
 ```Java
 class Matrix {
     Matrix(int rowCount, int columnCount) { ... }
