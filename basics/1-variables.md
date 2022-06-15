@@ -15,7 +15,7 @@ Samuel Bangari
 
 _Themes: main method, compiling code, print statement_
 
-# Intro
+# Intro（自己紹介文を表示させよう）
 
 Write a Java program to print out about yourself. Please include your name, where you are from, what you do and an interesting thing about you. Feel free to get as creative as you like!
 
