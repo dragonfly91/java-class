@@ -249,6 +249,8 @@ Maximum: 6
 
 Now modify the program to make it work for 3 numbers
 
+今度は、3つの数字に対して動作するようにプログラムを修正します。
+
 Expected Input:
 
 できるもの：
@@ -269,6 +271,8 @@ Maximum: 10
 ```
 
 Now modify the program to make it work for n numbers, where n is also an input
+
+今度は、n個の数字に対して動作するようにプログラムを修正します。
 
 Expected Input:
 
@@ -292,6 +296,8 @@ Maximum: 6
 ```
 
 Now modify the program to make it print the minimum as well.
+
+今度は、最小値も表示されるようにプログラムを修正します。
 
 Expected Input:
 
