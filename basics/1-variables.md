@@ -6,7 +6,7 @@ Write a Java program to print 'Hello' on screen and then print your name on a se
 
 Expected Output:
 
-期待できるアウトプット：
+できるもの：
 
 ```bash
 Hello
@@ -19,9 +19,11 @@ _Themes: main method, compiling code, print statement_
 
 Write a Java program to print out about yourself. Please include your name, where you are from, what you do and an interesting thing about you. Feel free to get as creative as you like!
 
-あなた自身についてのことをJavaのプログラムに書きましょう。名前、出身地、今何をしているか、また興味のあることをクリエイティブに好きに書いていきましょう。
+あなた自身についてのことをJavaのプログラムに書きましょう。名前、出身地、今何をしているか、また興味のあることを自由な発想で書いていきましょう。
 
 Expected Output:
+
+できるもの：
 
 ```
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,7 +39,7 @@ I love cycling, coffee and Christ (but not in that order!)
 
 Write a method that sums two numbers. The program should define two variables to store the two numbers and a third variable to store the result of the summation. These three variables should be used while printing the output.
 
-二つの数字を足す方法を書きましょう。
+二つの数字を足すメソッドを書きましょう。2つの数字を格納する2つの変数及びその数字の合計を格納する変数を定義する必要があります。この3つの変数は成果物をプリントする時に使わなければなりません。
 
 Expected Output:
 
@@ -51,7 +53,11 @@ _Themes: variables, string formatting_
 
 Write a Java program that takes two numbers as input and display the product of two numbers.
 
+2つの数字を入れ、積の値を表示する2つの数字を取れるJavaのプログラムを書きましょう。
+
 Expected Input:
+
+できるもの：
 
 ```bash
 Input first number: 25
@@ -59,6 +65,8 @@ Input second number: 5
 ```
 
 Expected Output:
+
+できるもの：
 
 ```bash
 25 x 5 = 125
@@ -70,12 +78,16 @@ _Themes: reading input_
 
 Given the radius of a circle (r), write a Java program to print the area and perimeter of the circle. You can use the following formulae:
 
+円の半径であるrが与えられた時、円の直径と面積を計算するJavaプログラムを書きましょう。次の公式を使いましょう。
+
 ```
 Area = PI * r * r
 Perimeter = 2 * PI * r
 ```
 
 You can assume that the value of PI is 3.14
+
+PIは3.14と仮定できます。
 
 Expected Input:
 
@@ -97,13 +109,21 @@ _Themes: floating point arithmetic_
 Write a Java program that reads a number in inches, converts it to meters and displays it to second digit precision (0.00).
 Note: One inch is 0.0254 meters.
 
+
+インチで表示された数値を読み取り、メートルに変換し、2桁目の精度（0.00）で表示するJavaプログラムを作成しなさい。
+注）1インチは0.0254メートルです。
+
 Expected Input:
+
+できるもの：
 
 ```
 Enter the value in inches: 15
 ```
 
 Expected Output:
+
+できるもの：
 
 ```bash
 15 inches is 0.38 meters
