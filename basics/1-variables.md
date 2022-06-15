@@ -2,9 +2,11 @@
 
 Write a Java program to print 'Hello' on screen and then print your name on a separate line.
 
-ハロー（こんにちは）とスクリーンに出るように
+'ハロー'（こんにちは）とスクリーンに出るようにJavaのプログラムをかきましょう。
 
 Expected Output:
+
+期待できるアウトプット：
 
 ```bash
 Hello
@@ -16,6 +18,8 @@ _Themes: main method, compiling code, print statement_
 # Intro
 
 Write a Java program to print out about yourself. Please include your name, where you are from, what you do and an interesting thing about you. Feel free to get as creative as you like!
+
+あなた自身についてのことをJavaのプログラムに書きましょう。名前、出身地、今何をしているか、また興味のあることをクリエイティブに好きに書いていきましょう。
 
 Expected Output:
 
@@ -32,6 +36,8 @@ I love cycling, coffee and Christ (but not in that order!)
 # Add Two
 
 Write a method that sums two numbers. The program should define two variables to store the two numbers and a third variable to store the result of the summation. These three variables should be used while printing the output.
+
+二つの数字を足す方法を書きましょう。
 
 Expected Output:
 
