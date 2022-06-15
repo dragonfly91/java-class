@@ -49,6 +49,8 @@ Sum of 1 and 2 is 3
 
 _Themes: variables, string formatting_
 
+テーマ：変数、文字列の書式ルール
+
 # Multiply Two（二つの数字をかけてみよう）
 
 Write a Java program that takes two numbers as input and display the product of two numbers.
@@ -73,6 +75,8 @@ Expected Output:
 ```
 
 _Themes: reading input_
+
+テーマ：？
 
 # Circle（円の公式をプログラムで組み立てよう）
 
@@ -104,6 +108,8 @@ Area is = 176.625
 
 _Themes: floating point arithmetic_
 
+テーマ：不動小数点演算（浮動小数点とは、コンピューター内部での小数を扱う方法のひとつ。コンピューターでの計算の処理のひとつ。)
+
 # Inches to Meters（インチをメートルに変換するプログラムを書いてみよう）
 
 Write a Java program that reads a number in inches, converts it to meters and displays it to second digit precision (0.00).
@@ -130,3 +136,5 @@ Expected Output:
 ```
 
 _Themes: floating point formatting_
+
+テーマ：浮動小数点演算
