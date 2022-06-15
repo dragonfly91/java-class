@@ -1,4 +1,4 @@
-# Hello
+# Hello　（ハローを書いてみよう）
 
 Write a Java program to print 'Hello' on screen and then print your name on a separate line.
 
@@ -35,7 +35,7 @@ I love cycling, coffee and Christ (but not in that order!)//サイクリング�
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ```
 
-# Add Two
+# Add Two　（二つの数字を足してみよう）
 
 Write a method that sums two numbers. The program should define two variables to store the two numbers and a third variable to store the result of the summation. These three variables should be used while printing the output.
 
@@ -49,7 +49,7 @@ Sum of 1 and 2 is 3
 
 _Themes: variables, string formatting_
 
-# Multiply Two
+# Multiply Two　（二つの数字をかけてみよう）
 
 Write a Java program that takes two numbers as input and display the product of two numbers.
 
@@ -74,7 +74,7 @@ Expected Output:
 
 _Themes: reading input_
 
-# Circle
+# Circle　（円の問題）
 
 Given the radius of a circle (r), write a Java program to print the area and perimeter of the circle. You can use the following formulae:
 
@@ -104,7 +104,7 @@ Area is = 176.625
 
 _Themes: floating point arithmetic_
 
-# Inches to Meters
+# Inches to Meters　（インチをメートルに変換するプログラムを書いてみよう）
 
 Write a Java program that reads a number in inches, converts it to meters and displays it to second digit precision (0.00).
 Note: One inch is 0.0254 meters.
