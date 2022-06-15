@@ -80,11 +80,15 @@ nの数が与えられたとき、1, 2, 3, ... nの整数の合計を計算す�
 
 Expected Input:
 
+できるもの：
+
 ```bash
 Input Number: 10
 ```
 
 Expected Output:
+
+できるもの：
 
 ```bash
 Sum of numbers 1 to 10 = 55
