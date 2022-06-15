@@ -27,11 +27,11 @@ Expected Output:
 
 ```
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Hi, nice to meet you!
-I'm Samuel from India. I moved to Japan 3 years ago.
-I'm currently planting a church in Shibuya and 
-also work in the Financial services industry in Tokyo.
-I love cycling, coffee and Christ (but not in that order!)
+Hi, nice to meet you!　//はじめまして！
+I'm Samuel from India. I moved to Japan 3 years ago.//インドから来ましたサムエルです。日本に来て３年が経ちました。
+I'm currently planting a church in Shibuya and //最近渋谷で教会を開拓しながら
+also work in the Financial services industry in Tokyo.//東京にある金融サービス業界にて働いています。
+I love cycling, coffee and Christ (but not in that order!)//サイクリングとコーヒー、そして神であるイエス様を愛しています！
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ```
 
