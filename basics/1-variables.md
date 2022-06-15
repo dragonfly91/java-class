@@ -53,7 +53,7 @@ _Themes: variables, string formatting_
 
 Write a Java program that takes two numbers as input and display the product of two numbers.
 
-2つの数字を入れ、積の値を表示する2つの数字を取れるJavaのプログラムを書きましょう。
+2つの数字を入れると、積の値を表示できるJavaのプログラムを書きましょう。
 
 Expected Input:
 
