@@ -1,4 +1,4 @@
-# Find in Array
+# Find in Array(配列の中身を検索する)
 
 Write a method that returns the index of the first occurrence of given integer in an array.
 Assume that the index of the first element in the list is zero.
