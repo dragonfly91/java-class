@@ -1,142 +1,122 @@
-# Hello（ハローと書いてみよう）
-
-Write a Java program to print 'Hello' on screen and then print your name on a separate line.
+# 「Hello」と書いてみよう
 
 'Hello'（こんにちは）とスクリーンに出るようにJavaのプログラムをかきましょう。また、別の行に自分の名前もプリントできるようにしましょう。
 
-Expected Output:
-
-できるもの：
+以下のように表示させてください：
 
 ```bash
 Hello
 Samuel Bangari
 ```
 
-_Themes: main method, compiling code, print statement_
+_テーマ：main機能、コードをコンパイルすること、プリント文_
 
-テーマ：メインメソッド、コンパイルコード、プリント文
+<br/><br/>
+<br/><br/>
 
-# Intro（自己紹介文を表示させよう）
+# プログラミングで自己紹介しよう
 
-Write a Java program to print out about yourself. Please include your name, where you are from, what you do and an interesting thing about you. Feel free to get as creative as you like!
+自己紹介を表示するプログラムを書きましょう。名前、出身地、今何をしているかなど、あなたの好きなこと書きましょう。
 
-あなた自身についてのことをJavaのプログラムに書きましょう。名前、出身地、今何をしているか、また興味のあることを自由な発想で書いていきましょう。
-
-Expected Output:
-
-できるもの：
+以下のように表示させてください：
 
 ```
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Hi, nice to meet you!　//はじめまして！
-I'm Samuel from India. I moved to Japan 3 years ago.//インドから来ましたサムエルです。日本に来て３年が経ちました。
-I'm currently planting a church in Shibuya and //最近渋谷で教会を開拓しながら
-also work in the Financial services industry in Tokyo.//東京にある金融サービス業界にて働いています。
-I love cycling, coffee and Christ (but not in that order!)//サイクリングとコーヒー、そして神であるイエス様を愛しています！
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+はじめまして！
+インドから来ましたサムエルです。日本に来て３年が経ちました。
+東京で教会を開拓しながら金融サービス業界にて働いています。
+サイクリングとコーヒーそしてイエス様が大好きです！
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ```
 
-# Add Two（二つの数字を足してみよう）
+<br/><br/>
+<br/><br/>
 
-Write a method that sums two numbers. The program should define two variables to store the two numbers and a third variable to store the result of the summation. These three variables should be used while printing the output.
+# 2つの数字を足してみよう
 
-二つの数字を足すメソッドを書きましょう。2つの数字を格納する2つの変数及びその数字の合計を格納する変数を定義する必要があります。この3つの変数は成果物をプリントする時に使わなければなりません。
+2つの数字を足すプログラムを書きましょう。３つの変数を使いながら答えをプリントしてください。
 
-Expected Output:
+以下のように表示させてください：
 
 ```bash
-Sum of 1 and 2 is 3
+１足す２は３です。
 ```
 
-_Themes: variables, string formatting_
+_テーマ：変数、文字列の書式ルール_
 
-テーマ：変数、文字列の書式ルール
+<br/><br/>
+<br/><br/>
 
-# Multiply Two（二つの数字をかけてみよう）
+# 2つの数字をかけてみよう
 
-Write a Java program that takes two numbers as input and display the product of two numbers.
+2つの数字を代入して、その二つの数字の掛け算を表示できるJavaのプログラムを書きましょう。
 
-2つの数字を入れると、積の値を表示できるJavaのプログラムを書きましょう。
-
-Expected Input:
-
-できるもの：
+代入する数字：
 
 ```bash
-Input first number: 25
-Input second number: 5
+１つ目の数字：２
+２つ目の数字：３
 ```
 
-Expected Output:
-
-できるもの：
+以下のように表示させてください：
 
 ```bash
 25 x 5 = 125
 ```
 
-_Themes: reading input_
+_テーマ：データを読み込むこと_
 
-テーマ：？
+<br/><br/>
+<br/><br/>
 
-# Circle（円の公式をプログラムで組み立てよう）
+# 円の公式をプログラムで組み立てよう
 
-Given the radius of a circle (r), write a Java program to print the area and perimeter of the circle. You can use the following formulae:
-
-円の半径であるrが与えられた時、円の直径と面積を計算するJavaプログラムを書きましょう。次の公式を使いましょう。
+円の半径である【r】をもとに、円の直径と面積を計算するJavaプログラムを書きましょう。次の公式を使いましょう。
 
 ```
-Area = PI * r * r
-Perimeter = 2 * PI * r
+面積 = π * r * r
+周囲 = 2 * π * r
 ```
 
-You can assume that the value of PI is 3.14
+【π】は【3.14】とします。
 
-PIは3.14と仮定できます。
-
-Expected Input:
+代入する数字：
 
 ```bash
-Radius: 7.5
+半径：7.5
 ```
 
-Expected Output:
+以下のように表示させてください：
 
 ```bash
-Perimeter is = 47.1
-Area is = 176.625
+周囲は47.1です。
+面積は176.625です。
 ```
 
-_Themes: floating point arithmetic_
+_テーマ：不動小数点演算（浮動小数点とは、コンピューター内部での小数を扱う方法のひとつ。コンピューターでの計算の処理のひとつ。)_
 
-テーマ：不動小数点演算（浮動小数点とは、コンピューター内部での小数を扱う方法のひとつ。コンピューターでの計算の処理のひとつ。)
+<br/><br/>
+<br/><br/>
 
-# Inches to Meters（インチをメートルに変換するプログラムを書いてみよう）
+# インチをメートルに変換するプログラムを書いてみよう
 
-Write a Java program that reads a number in inches, converts it to meters and displays it to second digit precision (0.00).
-Note: One inch is 0.0254 meters.
+インチを入力して、メートルに変換し、小数点２桁まで（0.00）で表示するJavaプログラムを作りましょう。
 
-
-インチで表示された数値を読み取り、メートルに変換し、2桁目の精度（0.00）で表示するJavaプログラムを作成しなさい。
 注）1インチは0.0254メートルです。
 
-Expected Input:
-
-できるもの：
+代入する数字：
 
 ```
-Enter the value in inches: 15
+インチを入力してください: 15
 ```
 
-Expected Output:
-
-できるもの：
+以下のように表示させてください：
 
 ```bash
-15 inches is 0.38 meters
+15インチは0.38メートルです。
 ```
 
-_Themes: floating point formatting_
+_テーマ：浮動小数点演算_
 
-テーマ：浮動小数点演算
+<br/><br/>
+<br/><br/>
