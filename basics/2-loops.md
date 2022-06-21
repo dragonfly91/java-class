@@ -1,8 +1,6 @@
-# Iterations（繰り返し文）
+# 繰り返し数
 
-Calculate how many times will `foo()` be executed:
-
-何回　foo()が実行されるかを数えましょう。
+`foo()`機能が何回実行されるかを数えましょう。コードを書く必要はありません。よろしければ、ノートで計算してみてください。
 
 ```Java
 for (int i = 0; i < 10; i++) {
@@ -55,355 +53,346 @@ for (int i = 0; i < 10; i++) {
 }
 ```
 
-# Count（）
+_テーマ: ループ、for文_
 
-For each of the loops in the [Iterations](#iterations) question, print the number of iterations via code.
+<br/><br/>
+<br/><br/>
 
-繰り返し文の問題の各ループについて、コードで反復回数をプリントしてください。
+# ループの回数
 
-Expected Output:
+【繰り返し数】の問題の各ループについて、コードを通して反復回数をプリントしてください。
 
-できるもの：
-
-```bash
-Count: 10
-Count: 7
-...
-etc.
-```
-
-# Sum 1 to N（１からN番目の数の合計は）
-
-Given an input n, write a Java program to calculate the sum of integers 1, 2, 3, ... n.
-
-nの数が与えられたとき、1, 2, 3, ... nの整数の合計を計算するJavaのプログラムを書きましょう。
-
-Expected Input:
-
-できるもの：
+以下のように表示させてください：
 
 ```bash
-Input Number: 10
+ループ１の回数: 10
+ループ２の回数: 7
+。
+。
+。
 ```
 
-Expected Output:
+<br/><br/>
+<br/><br/>
 
-できるもの：
+# 整数の合計
+
+整数である【n】をもとに、１からnまでの整数の合計をJavaプログラムを通して計算してください。【n】の数字をユーザーからもらってください。
+
+式：1 + 2 + 3 + ... + n
+
+代入する数字：
 
 ```bash
-Sum of numbers 1 to 10 = 55
+整数【n】を入力してください: 10
 ```
 
-_Themes: loop_
-
-# Sum Odd（奇数の合計）
-
-Given an input n, where n is an odd number, write a program to calculate the sum of odd integers up to n: 1, 3, 5, ... n.
-
-奇数であるnの数字が与えられたとき、1, 3, 5, ... nまでの奇数の合計を計算するプログラムを書きましょう。
-
-Expected Input:
-
-できるもの：
+以下のように表示させてください：
 
 ```bash
-Input Number: 11
+1 から 10 までの整数の合計は 55 です。
 ```
 
-Expected Output:
+<br/><br/>
+<br/><br/>
+
+# 奇数の合計
+
+奇数である【n】をもとに、１からnまでの奇数の合計をJavaプログラムを通して計算してください。【n】の数字をユーザーからもらってください。
+
+式：1 + 3 + 5 + ... + n
+
+代入する数字：
 
 ```bash
-Sum of odd numbers from 1 to 11 is 36
+奇数【n】を入力してください: 11
 ```
 
-# Sum Even（偶数の合計）
+以下のように表示させてください：
+
+```bash
+1 から 11 までの奇数の合計は 36 です。
+```
+
+<br/><br/>
+<br/><br/>
+
+# 偶数の合計
 
 Given an input n, where n is an even number, write a program to calculate the sum of odd integers up to n: 2, 4, 6, ... n.
 
-偶数であるnの数字が与えられたとき、2, 4, 6, ... nまでの偶数の合計を計算するプログラムを書きましょう。
+偶数である【n】をもとに、２からnまでの偶数の合計をJavaプログラムを通して計算してください。【n】の数字をユーザーからもらってください。
 
+式：2 + 4 + 6 + ... + n
 
-Expected Input:
-
-できるもの：
-
-```bash
-Input Number: 10
-```
-
-Expected Output:
+代入する数字：
 
 ```bash
-Sum of even numbers from 2 to 10 is 30
+偶数【n】を入力してください: 10
 ```
 
-# Sum Squares（2乗の合計）
-
-Given an input n, write a program to calculate the sum of squares of integers up to n: 1<sup>2</sup> + 2<sup>2</sup> + 3<sup>2</sup> + ... + n<sup>2</sup>.
-
-nの数が与えられたとき、1^1+2^2+3^3+... + n^nの合計を計算するプログラムを書きましょう。
-
-Expected Input:
+以下のように表示させてください：
 
 ```bash
-Input Number: 10
+2 から 10 までの偶数の合計は 30 です。
 ```
 
-Expected Output:
+<br/><br/>
+<br/><br/>
+
+# 2乗の合計
+
+整数である【n】をもとに、１からnまでの整数の2乗の合計をJavaプログラムを通して計算してください。【n】の数字をユーザーからもらってください。
+
+式：1<sup>2</sup> + 2<sup>2</sup> + 3<sup>2</sup> + ... + n<sup>2</sup>
+
+代入する数字：
 
 ```bash
-Sum of squares of numbers from 1 to 10 is 385
+整数【n】を入力してください: 10
 ```
 
-# Product 1 to N（1からNまでのかけ算の合計）
-
-Write a program called Product1ToN to compute the product of integers from 1 to 10 (i.e., 1x2x3x...x10), as an integer. Take note that it is the same as factorial of N.
-
-Expected Input:
-
-1から10までの整数の積（すなわち1x2x3x...x10）を整数で計算するProduct1ToNというプログラムを作成しましょう。Nの階乗と同じであることに注意しましょう。
+以下のように表示させてください：
 
 ```bash
-Input N: 10
+1 から 10 までの整数の2乗の合計は 385 です。
 ```
 
-Expected Output:
+<br/><br/>
+<br/><br/>
 
-できるもの：
+# 整数のかけ算
+
+整数である【n】をもとに、１からnまでの整数のかけ算（つまり、nの階乗）をJavaプログラムを通して計算してください。【n】の数字をユーザーからもらってください。
+
+式：1 x 2 x 3 x ... x n
+
+代入する数字：
+
+```bash
+整数【n】を入力してください: 10
+```
+
+以下のように表示させてください：
 
 ```bash
 3628800
+1 から 10 までの整数のかけ算は 3628800 です。
 ```
 
-# Fibonacci（フィボナッチ数列）
+<br/><br/>
+<br/><br/>
 
-Write a Java program to accept a number n and print all the Fibonacci numbers in the increasing order less than n (inclusive).
+# フィボナッチ数列
 
-数nを受け取り、nより小さい（含む）昇順のフィボナッチ数をすべて表示するJavaプログラムを作成しましょう。
+整数である【n】をもとに、nまでのフィボナッチ数列をJavaプログラムを通して表示してください。【n】の数字をユーザーからもらってください。
 
-Expected Input:
-
-できるもの：
+代入する数字：
 
 ```bash
-Enter a number n: 20
+整数【n】を入力してください: 20
 ```
 
-Expected Output:
-
-できるもの：
+以下のように表示させてください：
 
 ```bash
-1, 1, 2, 3, 5, 8, 13
+20 までのフィボナッチ数列: 1, 1, 2, 3, 5, 8, 13
 ```
 
-# Sum and Average（合計と平均値）
+<br/><br/>
+<br/><br/>
 
-Write a program in Java to input 5 numbers from keyboard and find their sum and average.
+# 合計と平均値
 
-5つの数字を入れ、それらの合計と平均値を出すJavaのプログラムを作りましょう。
+ユーザーから5つの数字を入力してもらい、それらの合計と平均値を表示するJavaのプログラムを作ってください。
 
-Expected Input:
-
-できるもの：
+代入する数字：
 
 ```bash
-Input the 5 numbers:                                                            
-1                                                                                
-2                                                                                
-3                                                                                
-4                                                                                
-5                                                                                
+5つの数字を入力してください:
+1
+2
+3
+4
+5
 ```
 
-Expected Output:
-
-できるもの：
+以下のように表示させてください：
 
 ```bash
-The sum of 5 no is : 15                                                          
-The Average is : 3.0
+合計: 15
+平均値: 3.0
 ```
 
-# Maximum（最大値）
+<br/><br/>
+<br/><br/>
 
-Write a program in Java to input 2 numbers from keyboard and print the maximum.
+# 最大値
 
-2つの数字を入れ、最大値をプリントするJavaのプログラムを書きましょう。
+## 2つの数字の最大値
 
-Expected Input:
+ユーザーから2つの数字を入力してもらい、それらの最大値を表示するJavaのプログラムを作ってください。
+
+代入する数字：
 
 ```bash
-Input the two numbers:
+2つの数字を入力してください:
 3
 6
 ```
 
-Expected Output:
-
-できるもの：
+以下のように表示させてください：
 
 ```bash
-Maximum: 6
+最大値: 6
 ```
 
-Now modify the program to make it work for 3 numbers
+<br/><br/>
 
-今度は、3つの数字に対して動作するようにプログラムを修正します。
+## 3つの数字の最大値
 
-Expected Input:
+今度は、3つの数字に対して動作するようにプログラムを修正してください。
 
-できるもの：
+代入する数字：
 
 ```bash
-Input the three numbers:
+3つの数字を入力してください:
 3
 10
 6
 ```
 
-Expected Output:
-
-できるもの：
+以下のように表示させてください：
 
 ```bash
-Maximum: 10
+最大値: 10
 ```
 
-Now modify the program to make it work for n numbers, where n is also an input
+<br/><br/>
 
-今度は、n個の数字に対して動作するようにプログラムを修正します。
+## nつの数字の最大値
 
-Expected Input:
+今度は、整数である【n】をもとに、nつの数字に対して動作するようにプログラムを修正してください。
 
-できるもの：
+代入する数字：
 
 ```bash
-Input n: 4
-Input the 4 numbers:
+整数【n】を入力してください: 4
+4つの数字を入力してください:
 4
 5
 2
 6
 ```
 
-Expected Output:
-
-できるもの：
+以下のように表示させてください：
 
 ```bash
-Maximum: 6
+最大値: 6
 ```
 
-Now modify the program to make it print the minimum as well.
+<br/><br/>
 
-今度は、最小値も表示されるようにプログラムを修正します。
+## nつの数字の最大値と最小値
 
-Expected Input:
+今度は、最小値も表示されるようにプログラムを修正してください。
 
-できるもの：
+代入する数字：
 
 ```bash
-Input n: 4
-Input the 4 numbers:
+整数【n】を入力してください: 4
+4つの数字を入力してください:
 4
 5
 2
 6
 ```
 
-Expected Output:
-
-できるもの：
+以下のように表示させてください：
 
 ```bash
-Maximum: 6
-Minimum: 2
+最大値: 6
+最小値: 2
 ```
 
-# Harmonic Sum（ハーモニックサム？）
+<br/><br/>
+<br/><br/>
 
-Write a program called HarmonicSum to compute the sum of a harmonic series to 3rd decimal precision, as shown below.
+# 協和音シリーズ
 
-以下のように、調和級数の和を小数点以下3桁の精度で計算するプログラムをHarmonicSumと名付けよ。
+整数である【n】をもとに、nまでの協和音シリーズの合計をJavaプログラムを通して表示してください。【n】の数字をユーザーからもらってください。
 
-```
-Harmonic(n) = 1 + 1/2 + 1/3 + ... + 1/n
-```
+式：1 + 1/2 + 1/3 + ... + 1/n
 
-where n = 50000
-
-Expected Input:
-
-できるもの：
+代入する数字：
 
 ```
-Enter the value of n: 50000
+整数【n】を入力してください: 50000
 ```
 
-Expected Output:
-
-できるもの：
+以下のように表示させてください：
 
 ```
-Harmonic(50000): 11.397
+50000までの協和音シリーズの合計: 11.397
 ```
 
-# Compute PI（円周率の計算）
+<br/><br/>
+<br/><br/>
 
-Write a program to compute the value of pi to 3rd digit precision, using the following series expansion. Use the maximum denominator (maxDenominator) as the terminating condition. Try maxDenominator of 100001.
+# 円周率の計算
 
-以下の級数展開により、円周率の値を3桁の精度で計算するプログラムを作成しなさい。最大分母(maxDenominator)を終端条件として使用する。maxDenominator を 100001 にしてみてください。
+以下の級数展開により、円周率の値を3桁の精度で計算するプログラムを作成してください。最大分母(maxDenominator)を終端条件として使用してください。maxDenominator を 100001 にしてみてください。
 
 ```
 pi = 4 * (1 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11 + 1/13 - 1/15 + ... + 1/maxDenominator)
 ```
 
-Expected Input:
-
-できるもの：
+代入する数字：
 
 ```
-Enter the value of maxDenominator: 100001
+maxDenominator を入力してください: 100001
 ```
 
-Expected Output:
-
-できるもの：
+以下のように表示させてください：
 
 ```
-Value of pi: 3.141
+円周率: 3.141
 ```
 
-# Patterns（模様）
+<br/><br/>
+<br/><br/>
 
-Write a program that prompts user for size (a non-negative integer in int); and prints the following patterns using two nested for-loops.
+# パターン
 
-2つの繰り返し文（for loopを使って）以下の模様をかき、ユーザーにサイズ（int型の非負整数）の入力を促すプログラムを作成しましょう。
+整数である【n】をもとに、nの大きさの以下のパターンを表示させてください。【n】の数字をユーザーからもらってください。
 
-Expected Input:
-
-```
-Enter the size: 5
-```
-
-Expected Output:
+代入する数字：
 
 ```
+パターンの大きさ、整数【n】を入力してください: 5
+```
+
+以下のように表示させてください：
+
+```
+正方形パターン
+ーーーーーーー
 # # # # #
 # # # # #
 # # # # #
 # # # # #
 # # # # # 
-Square Pattern
 
-# # # # # 
- # # # # #
+チェッカーパターン
+ーーーーーーーーー
 # # # # # 
  # # # # #
 # # # # # 
-Checker Pattern
+ # # # # #
+# # # # # 
 
+三角形パターン
+ーーーーーーー
 #
 # #
 # # #
@@ -427,8 +416,9 @@ Checker Pattern
     # # #
   # # # #
 # # # # #
-Triangular Patterns
 
+ボックスパターン
+ーーーーーーーー
 # # # # #
 #       #
 #       #
@@ -458,8 +448,9 @@ Triangular Patterns
 #   #   #
 # #   # #
 # # # # #
-Box Patterns
 
+ヒルパターン
+ーーーーーー
         #
       # # #
     # # # # #
@@ -491,8 +482,9 @@ Box Patterns
 # # #       # # #
 # # # #   # # # #
 # # # # # # # # #
-Hill Patterns
 
+ナンバーパターン
+ーーーーーーーー
 1
 1 2
 1 2 3
@@ -516,5 +508,4 @@ Hill Patterns
 3 2 1
 2 1
 1
-Number Patterns
 ```
