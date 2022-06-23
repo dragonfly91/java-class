@@ -163,7 +163,7 @@ Given an input n, where n is an even number, write a program to calculate the su
 
 # 整数のかけ算
 
-整数である【n】をもとに、１からnまでの整数のかけ算（つまり、nの階乗）をJavaプログラムを通して計算してください。【n】の数字をユーザーからもらってください。
+整数ｎが与えられたとき、１からnまでの整数のかけ算（つまり、nの階乗）を計算するためのプログラムをかいてください。【n】の数字をユーザーからもらってください。
 
 式：1 x 2 x 3 x ... x n
 
@@ -185,7 +185,7 @@ Given an input n, where n is an even number, write a program to calculate the su
 
 # フィボナッチ数列
 
-整数である【n】をもとに、nまでのフィボナッチ数列をJavaプログラムを通して表示してください。【n】の数字をユーザーからもらってください。
+整数ｎが与えられたとき、nまでのフィボナッチ数列をJavaプログラムを通して表示してください。【n】の数字をユーザーからもらってください。
 
 代入する数字：
 
@@ -204,7 +204,7 @@ Given an input n, where n is an even number, write a program to calculate the su
 
 # 合計と平均値
 
-ユーザーから5つの数字を入力してもらい、それらの合計と平均値を表示するJavaのプログラムを作ってください。
+ユーザーから5つの数字を入力してもらい、それらの合計と平均値を表示するJavaのプログラムを作ってください。//確認する！！
 
 代入する数字：
 
@@ -251,7 +251,7 @@ Given an input n, where n is an even number, write a program to calculate the su
 
 ## 3つの数字の最大値
 
-今度は、3つの数字に対して動作するようにプログラムを修正してください。
+今度は、3つの数字に動作するようにプログラムを修正してください。
 
 代入する数字：
 
@@ -318,9 +318,9 @@ Given an input n, where n is an even number, write a program to calculate the su
 <br/><br/>
 <br/><br/>
 
-# 協和音シリーズ
+# 調和級数の合計
 
-整数である【n】をもとに、nまでの協和音シリーズの合計をJavaプログラムを通して表示してください。【n】の数字をユーザーからもらってください。
+整数ｎが与えられたとき、nまでの調和級数の合計をJavaプログラムを通して表示してください。【n】の数字をユーザーからもらってください。
 
 式：1 + 1/2 + 1/3 + ... + 1/n
 
@@ -333,7 +333,7 @@ Given an input n, where n is an even number, write a program to calculate the su
 以下のように表示させてください：
 
 ```
-50000までの協和音シリーズの合計: 11.397
+50000までの調和級数の合計: 11.397
 ```
 
 <br/><br/>
@@ -341,7 +341,7 @@ Given an input n, where n is an even number, write a program to calculate the su
 
 # 円周率の計算
 
-以下の級数展開により、円周率の値を3桁の精度で計算するプログラムを作成してください。最大分母(maxDenominator)を終端条件として使用してください。maxDenominator を 100001 にしてみてください。
+以下の級数展開により、円周率の値を小数点第3桁まで計算するプログラムを作成してください。最大分母(maxDenominator)を終端条件として使用してください。maxDenominator を 100001 にしてみてください。
 
 ```
 pi = 4 * (1 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11 + 1/13 - 1/15 + ... + 1/maxDenominator)
@@ -364,7 +364,7 @@ maxDenominator を入力してください: 100001
 
 # パターン
 
-整数である【n】をもとに、nの大きさの以下のパターンを表示させてください。【n】の数字をユーザーからもらってください。
+与えられた整数、nの大きさの以下のパターンを表示させてください。【n】の数字をユーザーからもらってください。
 
 代入する数字：
 
