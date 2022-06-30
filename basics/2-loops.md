@@ -119,8 +119,6 @@ _テーマ: ループ、for文_
 
 # 偶数の合計
 
-Given an input n, where n is an even number, write a program to calculate the sum of odd integers up to n: 2, 4, 6, ... n.
-
 偶数ｎが与えられたとき、２からnまでの偶数の合計を計算するためのプログラムをかいてください。【n】の数字をユーザーからもらってください。
 
 式：2 + 4 + 6 + ... + n
