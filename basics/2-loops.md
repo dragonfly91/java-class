@@ -6,6 +6,10 @@
 
 _テーマ: ループ、for文_
 
+# 1. Iterations
+
+Calculate how many times will `foo()` be executed:
+
 ## a
 
 ```Java
@@ -13,8 +17,6 @@ for (int i = 0; i < 10; i++) {
   foo();
 }
 ```
-
-aの答え：
 
 ## b
 
@@ -25,8 +27,6 @@ for (j = 0; j < 7; j++) {
 }
 ```
 
-bの答え：
-
 ## c
 
 ```Java
@@ -34,8 +34,6 @@ for (int i = 0; i < 10; i = i + 2) {
   foo();
 }
 ```
-
-cの答え：
 
 ## d
 
@@ -45,8 +43,6 @@ for (int i = 10; i > 1; i = i - 2) {
 }
 ```
 
-dの答え：
-
 ## e
 
 ```Java
@@ -54,8 +50,6 @@ for (int i = 0, j = 10; i < 10 && j > 5; i++, j--) {
   foo();
 }
 ```
-
-eの答え：
 
 ## f
 
@@ -65,8 +59,6 @@ for (int i = 0; i < 10;) {
 }
 ```
 
-fの答え：
-
 ## g
 
 ```Java
@@ -74,8 +66,6 @@ for (int i = 4; i < 20; i = 2 * i + 3) {
   foo();
 }
 ```
-
-gの答え：
 
 ## h
 
@@ -87,8 +77,6 @@ for (int i = 0; i < 10; i++) {
 }
 ```
 
-hの答え：
-
 <br/><br/>
 <br/><br/>
 
@@ -97,6 +85,16 @@ hの答え：
 1から10までの整数を表示するプログラムを書いてください。数字と数字の間に「,」を表示させてください。
 
 以下のように表示させてください：
+
+```bash
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+```
+
+# 2. Display 1 to 10
+
+Write a Java program to print the integers 1, 2, 3, ... 10.
+
+Expected Output:
 
 ```bash
 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
@@ -115,6 +113,16 @@ hの答え：
 1, 3, 5, 7, 9, 11
 ```
 
+# 3. Display Odd Numbers
+
+Write a Java program to print the odd numbers 1, 3, 5, ... 11.
+
+Expected Output:
+
+```bash
+1, 3, 5, 7, 9, 11
+```
+
 <br/><br/>
 <br/><br/>
 
@@ -123,6 +131,16 @@ hの答え：
 2から10までの偶数を表示するプログラムを書いてください。数字と数字の間に「,」を表示させてください。
 
 以下のように表示させてください：
+
+```bash
+2, 4, 6, 8, 10
+```
+
+# 4. Display Even Numbers
+
+Write a Java program to print the odd numbers 2, 4, 6, ... 10.
+
+Expected Output:
 
 ```bash
 2, 4, 6, 8, 10
@@ -147,6 +165,22 @@ hの答え：
 3, 6, 9, 12, 15, 18
 ```
 
+# 5. Display Multiples of 3
+
+Given a number n, write a Java program to print the multiples of 3 less than n.
+
+Expected Input:
+
+```bash
+Input Number: 20
+```
+
+Expected Output:
+
+```bash
+3, 6, 9, 12, 15, 18
+```
+
 <br/><br/>
 <br/><br/>
 
@@ -166,6 +200,22 @@ hの答え：
 4, 8, 12, 16, 20
 ```
 
+# 6. Display Multiples of 4
+
+Given a number n, write a Java program to print the multiples of 4 less than n.
+
+Expected Input:
+
+```bash
+Input Number: 20
+```
+
+Expected Output:
+
+```bash
+4, 8, 12, 16, 20
+```
+
 <br/><br/>
 <br/><br/>
 
@@ -176,11 +226,28 @@ hの答え：
 代入する数字：
 
 ```bash
-整数【n】を入力してください: 30
 整数【m】を入力してください: 5
+整数【n】を入力してください: 30
 ```
 
 以下のように表示させてください：
+
+```bash
+5, 10, 15, 20, 25, 30
+```
+
+# 7. Display Multiples of m
+
+Given two numbers m and n, write a Java program to print the multiples of m less than n.
+
+Expected Input:
+
+```bash
+Input Number m: 5
+Input Number n: 30
+```
+
+Expected Output:
 
 ```bash
 5, 10, 15, 20, 25, 30
@@ -203,10 +270,22 @@ hの答え：
 。
 ```
 
+# 8. Display Iteration Count
+
+For each of the loops in Question 1, print the number of iterations.
+
+Expected Output:
+
+```bash
+Loop 1 Iterations: 10
+Loop 2 Iterations: 7
+.
+.
+.
+```
+
 <br/><br/>
 <br/><br/>
-
-
 
 # 9. 整数の合計
 
@@ -224,6 +303,22 @@ hの答え：
 
 ```bash
 1 から 10 までの整数の合計は 55 です。
+```
+
+# 9. Sum 1 to N
+
+Given an input n, write a Java program to calculate the sum of integers 1, 2, 3, ... n.
+
+Expected Input:
+
+```bash
+Input Number: 10
+```
+
+Expected Output:
+
+```bash
+Sum of numbers 1 to 10 = 55
 ```
 
 <br/><br/>
@@ -247,6 +342,22 @@ hの答え：
 1 から 11 までの奇数の合計は 36 です。
 ```
 
+# 10. Sum Odd
+
+Given an input n, where n is an odd number, write a program to calculate the sum of odd integers up to n: 1, 3, 5, ... n.
+
+Expected Input:
+
+```bash
+Input Number: 11
+```
+
+Expected Output:
+
+```bash
+Sum of odd numbers from 1 to 11 is 36
+```
+
 <br/><br/>
 <br/><br/>
 
@@ -266,6 +377,22 @@ hの答え：
 
 ```bash
 2 から 10 までの偶数の合計は 30 です。
+```
+
+# 11. Sum Even
+
+Given an input n, where n is an even number, write a program to calculate the sum of odd integers up to n: 2, 4, 6, ... n.
+
+Expected Input:
+
+```bash
+Input Number: 10
+```
+
+Expected Output:
+
+```bash
+Sum of even numbers from 2 to 10 is 30
 ```
 
 <br/><br/>
@@ -289,6 +416,22 @@ hの答え：
 1 から 10 までの整数の2乗の合計は 385 です。
 ```
 
+# 12. Sum Squares
+
+Given an input n, write a program to calculate the sum of squares of integers up to n: 1<sup>2</sup> + 2<sup>2</sup> + 3<sup>2</sup> + ... + n<sup>2</sup>.
+
+Expected Input:
+
+```bash
+Input Number: 10
+```
+
+Expected Output:
+
+```bash
+Sum of squares of numbers from 1 to 10 is 385
+```
+
 <br/><br/>
 <br/><br/>
 
@@ -308,6 +451,22 @@ hの答え：
 
 ```bash
 1 から 10 までの整数の3乗の合計は 3025 です。
+```
+
+# 13. Sum Cubes
+
+Given an input n, write a program to calculate the sum of squares of integers up to n: 1<sup>3</sup> + 2<sup>3</sup> + 3<sup>3</sup> + ... + n<sup>3</sup>.
+
+Expected Input:
+
+```bash
+Input Number: 10
+```
+
+Expected Output:
+
+```bash
+Sum of cubes of numbers from 1 to 10 is 3025
 ```
 
 <br/><br/>
@@ -332,6 +491,22 @@ hの答え：
 1 から 10 までの整数のかけ算は 3628800 です。
 ```
 
+# 14. Product 1 to N
+
+Write a program called Product1ToN to compute the product of integers from 1 to 10 (i.e., 1x2x3x...x10), as an integer. Take note that it is the same as factorial of N.
+
+Expected Input:
+
+```bash
+Input N: 10
+```
+
+Expected Output:
+
+```bash
+The factorial of 10 is 3628800
+```
+
 <br/><br/>
 <br/><br/>
 
@@ -351,12 +526,28 @@ hの答え：
 20 までのフィボナッチ数列: 1, 1, 2, 3, 5, 8, 13
 ```
 
+# 15. Fibonacci
+
+Write a Java program to accept a number n and print all the Fibonacci numbers in the increasing order less than n (inclusive).
+
+Expected Input:
+
+```bash
+Enter a number n: 20
+```
+
+Expected Output:
+
+```bash
+Fibonacci series upto 20: 1, 1, 2, 3, 5, 8, 13
+```
+
 <br/><br/>
 <br/><br/>
 
 # 16. 合計と平均値
 
-ユーザーから5つの数字を入力してもらい、それらの合計と平均値を表示するJavaのプログラムを作ってください。//確認する！！
+ユーザーから5つの数字を入力してもらい、それらの合計と平均値を表示するJavaのプログラムを作ってください。
 
 代入する数字：
 
@@ -374,6 +565,28 @@ hの答え：
 ```bash
 合計: 15
 平均値: 3.0
+```
+
+# 16. Sum and Average
+
+Write a program in Java to input 5 numbers from keyboard and find their sum and average.
+
+Expected Input:
+
+```bash
+Input the 5 numbers:                                                            
+1                                                                                
+2                                                                                
+3                                                                                
+4                                                                                
+5                                                                                
+```
+
+Expected Output:
+
+```bash
+Sum: 15                                                          
+Average: 3.0
 ```
 
 <br/><br/>
@@ -465,6 +678,88 @@ hの答え：
 ```bash
 最大値: 6
 最小値: 2
+```
+
+# 17. Maximum
+
+## Maximum of two numbers
+
+Write a program in Java to input 2 numbers from keyboard and print the maximum.
+
+Expected Input:
+
+```bash
+Input the two numbers:
+3
+6
+```
+
+Expected Output:
+
+```bash
+Maximum: 6
+```
+
+## Maximum of three numbers
+
+Now modify the program to make it work for 3 numbers
+
+Expected Input:
+
+```bash
+Input the three numbers:
+3
+10
+6
+```
+
+Expected Output:
+
+```bash
+Maximum: 10
+```
+
+## Maximum of n numbers
+
+Now modify the program to make it work for n numbers, where n is also an input
+
+Expected Input:
+
+```bash
+Input n: 4
+Input the 4 numbers:
+4
+5
+2
+6
+```
+
+Expected Output:
+
+```bash
+Maximum: 6
+```
+
+## Maximum and minimum of n numbers
+
+Now modify the program to make it print the minimum as well.
+
+Expected Input:
+
+```bash
+Input n: 4
+Input the 4 numbers:
+4
+5
+2
+6
+```
+
+Expected Output:
+
+```bash
+Maximum: 6
+Minimum: 2
 ```
 
 <br/><br/>
