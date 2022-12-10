@@ -853,9 +853,11 @@ Value of pi: 3.141
 <br/><br/>
 <br/><br/>
 
-# 20. パターン
+# 20. パターン (Patterns)
 
 与えられた整数、nの大きさの以下のパターンを表示させてください。【n】の数字をユーザーからもらってください。
+
+Write a program that prompts user for size (a non-negative integer in int); and prints the following patterns using two nested for-loops.
 
 代入する数字：
 
@@ -863,10 +865,19 @@ Value of pi: 3.141
 パターンの大きさ、整数【n】を入力してください: 5
 ```
 
+Expected Input:
+
+```
+Enter the size: 5
+```
+
 以下のように表示させてください：
+
+Expected Output:
 
 ```
 正方形パターン
+Square Pattern
 ーーーーーーー
 # # # # #
 # # # # #
@@ -875,6 +886,7 @@ Value of pi: 3.141
 # # # # # 
 
 チェッカーパターン
+Checker Pattern
 ーーーーーーーーー
 # # # # # 
  # # # # #
@@ -883,6 +895,7 @@ Value of pi: 3.141
 # # # # # 
 
 三角形パターン
+Triangular Patterns
 ーーーーーーー
 #
 # #
@@ -909,6 +922,7 @@ Value of pi: 3.141
 # # # # #
 
 ボックスパターン
+Box Patterns
 ーーーーーーーー
 # # # # #
 #       #
@@ -941,6 +955,7 @@ Value of pi: 3.141
 # # # # #
 
 ヒルパターン
+Hill Patterns
 ーーーーーー
         #
       # # #
@@ -975,6 +990,7 @@ Value of pi: 3.141
 # # # # # # # # #
 
 ナンバーパターン
+Number Patterns
 ーーーーーーーー
 1
 1 2
