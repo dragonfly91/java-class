@@ -266,7 +266,7 @@ _Themes: floating point arithmetic_
 
 _テーマ：浮動小数点演算_
 
-# Inches to Meters
+# 8. Inches to Meters
 
 Write a Java program that reads a number in inches, converts it to meters and displays it to second digit precision (0.00).
 Note: One inch is 0.0254 meters.
