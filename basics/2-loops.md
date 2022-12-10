@@ -769,7 +769,9 @@ Minimum: 2
 
 整数ｎが与えられたとき、nまでの調和級数の合計をJavaプログラムを通して表示してください。【n】の数字をユーザーからもらってください。
 
+```
 式：1 + 1/2 + 1/3 + ... + 1/n
+```
 
 代入する数字：
 
@@ -783,27 +785,69 @@ Minimum: 2
 50000までの調和級数の合計: 11.397
 ```
 
+# 18. Harmonic Sum
+
+Write a program called HarmonicSum to compute the sum of a harmonic series to 3rd decimal precision, as shown below.
+
+```
+Harmonic(n) = 1 + 1/2 + 1/3 + ... + 1/n
+```
+
+where n = 50000
+
+Expected Input:
+
+```
+Enter the value of n: 50000
+```
+
+Expected Output:
+
+```
+Harmonic(50000): 11.397
+```
+
 <br/><br/>
 <br/><br/>
 
 # 19. 円周率の計算
 
-以下の級数展開により、円周率の値を小数点第3桁まで計算するプログラムを作成してください。最大分母(maxDenominator)を終端条件として使用してください。maxDenominator を 100001 にしてみてください。
+以下の級数展開により、円周率の値を小数点第3桁まで計算するプログラムを作成してください。最大分母(m)を終端条件として使用してください。m を 100001 にしてみてください。
 
 ```
-pi = 4 * (1 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11 + 1/13 - 1/15 + ... + 1/maxDenominator)
+円周率 = 4 * (1 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11 + 1/13 - 1/15 + ... + 1/m)
 ```
 
 代入する数字：
 
 ```
-maxDenominator を入力してください: 100001
+m を入力してください: 100001
 ```
 
 以下のように表示させてください：
 
 ```
 円周率: 3.141
+```
+
+# 19. Compute PI
+
+Write a program to compute the value of pi to 3rd digit precision, using the following series expansion. Use the maximum denominator (maxDenominator) as the terminating condition. Try maxDenominator of 100001.
+
+```
+pi = 4 * (1 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11 + 1/13 - 1/15 + ... + 1/maxDenominator)
+```
+
+Expected Input:
+
+```
+Enter the value of maxDenominator: 100001
+```
+
+Expected Output:
+
+```
+Value of pi: 3.141
 ```
 
 <br/><br/>
