@@ -700,6 +700,8 @@ Expected Output:
 Maximum: 6
 ```
 
+<br/><br/>
+
 ## Maximum of three numbers
 
 Now modify the program to make it work for 3 numbers
@@ -718,6 +720,8 @@ Expected Output:
 ```bash
 Maximum: 10
 ```
+
+<br/><br/>
 
 ## Maximum of n numbers
 
@@ -739,6 +743,8 @@ Expected Output:
 ```bash
 Maximum: 6
 ```
+
+<br/><br/>
 
 ## Maximum and minimum of n numbers
 
@@ -1016,3 +1022,6 @@ Number Patterns
 2 1
 1
 ```
+
+<br/><br/>
+<br/><br/>
